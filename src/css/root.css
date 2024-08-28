@@ -1,7 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Coiny&family=Poetsen+One&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,700&family=Chango&family=Coiny&family=Poetsen+One&family=Salsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Belanosima:wght@400;600;700&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Marko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+
 :root{
     --cor-fundo: #f8f5f5;
-    --cor-detalhes: #7c3950;
-    --cor-texto: #1e151c;
+    --cor-caixa: #8890a8;;
+    --cor-detalhes: #303878;
+    --cor-texto: #474747;
     --fonte-detalhes: ;
-    --fonte-texto: "Arial";
+    --fonte-texto: "Archivo";
 }
+
+/* #303878
+#404080
+303860
+303868
+*/

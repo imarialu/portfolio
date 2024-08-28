@@ -3,8 +3,7 @@
 #s-sobre{
     background-color: var(--cor-fundo);
     width: 100%;
-    height: 600px;
-    justify-content: center;
+    height: 700px;
 }
 
 #card-sm{
@@ -13,14 +12,16 @@
     left: 50%;
     top: 50%;
     width: 75%;
-    height: 550px;
-    border: 1px solid var(--cor-detalhes);
+    height: 600px;
+    border: 2px solid var(--cor-caixa);
+    border-radius: 3px;
 }
 
 .titulo{
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
+    color: var(--cor-detalhes);
 }
 
 #card-sm img{
@@ -34,6 +35,7 @@
 
 #img-sobre, #texto-sm{
     width: 50%;
+    color: var(--cor-texto);
 }
 
 #texto-sm{
@@ -45,6 +47,25 @@
     display: flex;
 }
 
-#card-cmt{
-    padding-bottom: 80px;
+#icones-cmt{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+#icones-cmt img{
+    width: 35px;
+    height: 35px;
+}
+
+#icones-cmt li{
+    width: 55px;
+    height: 55px;
+    border: 2px solid var(--cor-caixa);
+    border-radius: 3px;
+}
+
+#icones-cmt li:hover{
+    border: 2px solid var(--cor-detalhes);
 }
