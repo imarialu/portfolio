@@ -1,0 +1,50 @@
+@import "./root.css";
+
+#s-sobre{
+    background-color: var(--cor-fundo);
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+}
+
+#card-sm{
+    position: relative;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+    width: 75%;
+    height: 550px;
+    border: 1px solid var(--cor-detalhes);
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#card-sm img{
+    width: 270px;
+    height: 270px;
+    position: relative;
+    transform: translateX(-50%) translateY(-50%);
+    left: 50%;
+    top: 50%;
+}
+
+#img-sobre, #texto-sm{
+    width: 50%;
+}
+
+#texto-sm{
+    width: 500px;
+    height: 300px;
+}
+
+#img_texto{
+    display: flex;
+}
+
+#card-cmt{
+    padding-bottom: 80px;
+}
