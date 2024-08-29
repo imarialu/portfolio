@@ -13,8 +13,9 @@
     top: 50%;
     width: 75%;
     height: 600px;
-    border: 2px solid var(--cor-caixa);
+    border: 2px solid var(--cor-borda);
     border-radius: 3px;
+    background-color: var(--cor-cont);
 }
 
 .titulo{
@@ -51,7 +52,6 @@
     display: flex;
     list-style: none;
     justify-content: center;
-    padding: 0 15px;
 }
 
 #icones-cmt img{
@@ -62,7 +62,7 @@
 #icones-cmt li{
     width: 55px;
     height: 55px;
-    border: 2px solid var(--cor-caixa);
+    border: 2px solid var(--cor-borda);
     border-radius: 3px;
 }
 
