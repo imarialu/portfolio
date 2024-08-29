@@ -3,7 +3,7 @@
 #s-sobre{
     background-color: var(--cor-fundo);
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 
 #card-sm{
@@ -67,6 +67,7 @@
     margin: 0 15px;
     width: 55px;
     height: 55px;
+    background-color: var(--cor-fundo);
     border: 2px solid var(--cor-borda);
     border-radius: 10px;
 }

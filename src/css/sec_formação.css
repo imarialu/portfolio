@@ -6,19 +6,57 @@
     background-color: var(--cor-fundo);
 }
 
+#ti-form{
+    padding-top: 100px;
+}
+
 #container-form{
     display: flex;
-    padding-top: 40px;
+    padding-top: 80px;
     justify-content: center;
 }
 
-
-
 .container{
-    width: 300px;
-    height: 300px;
-    background-color: var(--cor-cont);
-    border: 1px solid var(--cor-borda);
+    width: 400px;
+    height: 250px;
+    background-color: var(--cor-fundo);
+    border: 2px solid var(--cor-detalhes);
+    border-radius: 10px;
     margin: 0 40px 0 40px;
-    
+}
+
+.container img{
+    width: 40px;
+    height: 40px;
+}
+.estrela1{
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.estrela2{
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.info-form{
+    padding-top: 70px;
+}
+.container p, h4{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.container h4{
+    font-size: large;
+    color: var(--cor-detalhes);
+}
+
+.container p{
+    color: var(--cor-texto);
 }
