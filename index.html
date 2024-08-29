@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../src/css/nav.css">
-    <link rel="stylesheet" href="../src/css/sec_home.css">
-    <link rel="stylesheet" href="../src/css/sec_sobre.css">
-    <link rel="stylesheet" href="../src/css/sec_formação.css">
-    <link rel="stylesheet" href="../../src/css/sec_portfolio.css">
+    <link rel="stylesheet" href="src/css/nav.css">
+    <link rel="stylesheet" href="src/css/sec_home.css">
+    <link rel="stylesheet" href="src/css/sec_sobre.css">
+    <link rel="stylesheet" href="src/css/sec_formação.css">
+    <link rel="stylesheet" href="src/css/sec_portfolio.css">
+    <link rel="stylesheet" href="src/css/sec_cnt_e_footer.css">
 
     <title>Portfólio</title>
 </head>
@@ -138,16 +139,20 @@
             <div class="titulo" id="ti-cnt">
                 <h1>Entre em contato comigo!</h1>
             </div>
-            <form action="">
-                <div>
-                    <input type="text" name="" id="" placeholder="Insira o seu nome">
-                    <input type="text" name="" id="" placeholder="Insira o seu e-mail">
-                </div>
-                <div>
-                    <input type="textarea" name="" id="" placeholder="Escreva uma mensagem">
-                    <button >Enviar</button>
-                </div>
-            </form>
+            <div id="formulario">
+                <form action="">
+                    <div id="nome_email">
+                        <input type="text" name="" id="nome" placeholder="Insira o seu nome">
+                        <input type="text" name="" id="email" placeholder="Insira o seu e-mail">
+                    </div>
+                    <div id="msg">
+                        <input type="textarea" name="" id="" placeholder="Escreva uma mensagem">
+                    </div>
+                    <div id="btn">
+                        <button>Enviar</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
     <footer>

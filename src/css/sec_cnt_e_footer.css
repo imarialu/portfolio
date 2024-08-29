@@ -1,0 +1,76 @@
+@import "./root.css";
+
+#s-contato{
+    width: 100%;
+    height: 600px;
+    background-color: var(--cor-fundo);
+    border: 1px solid red;
+}
+
+#ti-cnt{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#formulario{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+
+#formulario form{
+    justify-content: center;
+    align-items: center;
+}
+
+#nome_email input{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid var(--cor-detalhes);
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+#msg input{
+    width: 520px;
+    height: 300px;
+    padding-top: 10px;
+    border: 2px solid var(--cor-detalhes);
+    border-radius: 10px;
+    background-color: var(--cor-fundo);
+    margin-bottom: 20px;
+}
+
+#nome_email input:focus{
+    outline: 0;
+}
+
+#msg input:focus{
+    outline: 0;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+}
+
+#btn button{
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: var(--cor-detalhes);
+    background-color: var(--cor-fundo);
+    border: 2px solid var(--cor-detalhes);
+}
+
+#btn button:hover{
+    color: var(--cor-fundo);
+    background-color: var(--cor-detalhes);
+
+}
