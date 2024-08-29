@@ -44,7 +44,7 @@
 .info-form{
     padding-top: 70px;
 }
-.container p, h4{
+.container p, .p-form{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -52,8 +52,9 @@
     margin-top: 15px;
 }
 
-.container h4{
+.container .p-form{
     font-size: large;
+    font-weight: bold;
     color: var(--cor-detalhes);
 }
 
