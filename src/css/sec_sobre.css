@@ -14,15 +14,17 @@
     width: 75%;
     height: 600px;
     border: 2px solid var(--cor-borda);
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: var(--cor-cont);
 }
 
 .titulo{
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
     color: var(--cor-detalhes);
+}
+
+#ti-sm{
+    padding-top: 40px;
 }
 
 #card-sm img{
@@ -46,11 +48,13 @@
 
 #img_texto{
     display: flex;
+    padding: 40px;
 }
 
 #icones-cmt{
     display: flex;
     list-style: none;
+    padding-top: 30px;
     justify-content: center;
 }
 
@@ -60,10 +64,11 @@
 }
 
 #icones-cmt li{
+    margin: 0 15px;
     width: 55px;
     height: 55px;
     border: 2px solid var(--cor-borda);
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
 #icones-cmt li:hover{
