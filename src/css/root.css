@@ -1,3 +1,4 @@
+/* Importanto as fontes do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Stylish&display=swap');
@@ -5,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Marko+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* Definindo as cores e fontes que serão utilizadas */
 :root{
     --cor-fundo: #f8f5f5;
     --cor-cont: #f1f1f1;
