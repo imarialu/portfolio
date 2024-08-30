@@ -19,11 +19,13 @@
     padding-bottom: 5px;
     font-size: 50px;
     color: var(--cor-detalhes);
+    font-family: var(--fonte-detalhes);
 }
 
 #home h3{
     font-size: 30px;
     color: var(--cor-texto);
+    font-family: var(--fonte-texto);
 }
 
 #home img{

@@ -40,11 +40,13 @@
 .projetos h4{
     color: var(--cor-detalhes);
     margin-top: 20px;
+    font-family: var(--fonte-detalhes);
 }
 
 .projetos p{
     color: var(--cor-texto);
     margin-top: 10px;
+    font-family: var(--fonte-texto);
 }
 
 .projetos button{
@@ -53,6 +55,7 @@
     margin-top: 65px;
     border: 2px solid var(--cor-borda);
     border-radius: 50px;
+    font-family: var(--fonte-detalhes);
 }
 
 .projetos button:hover{
