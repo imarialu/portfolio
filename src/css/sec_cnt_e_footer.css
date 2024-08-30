@@ -33,6 +33,7 @@
     border-bottom: 2px solid var(--cor-detalhes);
     background-color: transparent;
     margin-bottom: 30px;
+    font-family: var(--fonte-texto);
 }
 
 #msg{
@@ -49,7 +50,7 @@
     border-radius: 10px;
     background-color: var(--cor-fundo);
     margin-bottom: 20px;
-    text-wrap: wrap;
+    font-family: var(--fonte-texto);
 }
 
 #nome_email input:focus{
@@ -74,6 +75,7 @@
     background-color: var(--cor-fundo);
     border: 2px solid var(--cor-detalhes);
     font-family: var(--fonte-detalhes);
+    font-weight: bold;
 }
 
 #btn button:hover{
