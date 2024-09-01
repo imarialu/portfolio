@@ -17,7 +17,7 @@
 }
 
 #home h1{
-    padding-top: 170px;
+    padding-top: 230px;
     padding-bottom: 5px;
     font-size: 50px;
     color: var(--cor-detalhes);
@@ -31,7 +31,7 @@
 }
 
 #home img{
-    padding-top: 90px;
+    padding-top: 150px;
     margin-left: 200px;
 }
 
