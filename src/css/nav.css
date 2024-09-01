@@ -51,6 +51,8 @@ header{
     color: var(--cor-detalhes);
 }
 
+/* Estilização da barra de rolagem*/
+
 ::-webkit-scrollbar {
     width: 10px;
     background-color: var(--cor-fundo);
