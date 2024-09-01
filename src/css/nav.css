@@ -1,6 +1,8 @@
 /* Importando o arquivo root. onde contém as variáveis com as cores e fontes utilizadas*/
 @import "./root.css";
 
+/* Estilização da navbar*/
+
 *{
     margin: 0;
     padding: 0;
