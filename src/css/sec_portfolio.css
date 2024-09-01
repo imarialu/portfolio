@@ -27,6 +27,10 @@
     border-radius: 10px;
 }
 
+.projetos:hover{
+    border: 2px solid var(--cor-detalhes);
+}
+
 .projetos img{
     width: 100px;
     height: 100px;
