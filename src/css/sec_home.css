@@ -1,5 +1,7 @@
 @import "./root.css";
 
+/* Estilização da section home*/
+
 #s-inicio{
     background-color: var(--cor-fundo);
     width: 100%;

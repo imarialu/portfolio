@@ -1,5 +1,7 @@
 @import "./root.css";
 
+/* Estilização da section sobre mim*/
+
 #s-sobre{
     background-color: var(--cor-fundo);
     width: 100%;
